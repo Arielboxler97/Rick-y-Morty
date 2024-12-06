@@ -1,0 +1,13 @@
+<div class="home">
+ <input type="text" placeholder="Buscar Personaje" class="buscador" [(ngModel)]="busqueda" (input)="buscar()">
+  <div class="container ">
+   
+  <div *ngFor="let personaje of pj" class="card_container">
+    
+      <img src="https://rickandmortyapi.com/api/character/avatar/{{personaje.id}}.jpeg" alt="" class="card_img">
+      <h2 class="card_title">{{personaje.name}}</h2>
+      <button class="button" (click)="goDetail(personaje.id)">Ver detalles</button>
+      
+    </div>
+  </div>
+</div>

@@ -1,0 +1,15 @@
+<div class="detal_Padre">
+    <button class="volver_home"><a href="http://localhost:4200/">volver</a></button>
+
+<div class="container_principal">
+    
+<div *ngIf="personaje" class="container_detail">
+    <h1 class="title_detail">{{personaje.name}}</h1>
+    <img src="https://rickandmortyapi.com/api/character/avatar/{{personaje.id}}.jpeg" alt="" class="img_detail">
+    <h3 class="specie_detail">{{personaje.species}}</h3>
+    <p [ngClass]="personaje.status">{{personaje.status}}</p>
+    <p class="prox_detail">Proximamente...</p>
+</div>
+</div>
+
+</div>

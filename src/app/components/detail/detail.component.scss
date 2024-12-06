@@ -1,0 +1,87 @@
+.detal_Padre{
+    width: 100%;
+    display: flex;
+}
+
+.volver_home{
+    margin-top: 15px;
+    color: red;
+    background-color: azure;
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    cursor: pointer;
+    
+    
+}
+
+
+.container_principal{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.container_detail{
+    width: 500px;
+    height: auto;
+    
+}
+
+.title_detail{
+    color: white;
+    text-align: center;
+}
+
+.img_detail{
+    width: 100%;
+    border-radius: 50%;
+    
+    
+}
+
+
+.specie_detail{
+    color: white;
+    text-align: center;
+    border: 2px solid green; 
+    padding: 10px; 
+    border-radius: 5px; 
+}
+
+// .status_detail{
+//     color: white;
+//     text-align: center;
+//     border: 2px solid green; 
+//     padding: 10px; 
+//     border-radius: 5px; 
+// }
+
+.prox_detail{
+    color: white;
+    text-align: center;
+}
+
+.Alive{
+    color: rgb(14, 255, 14);
+    text-align: center;
+    border: 2px solid green; 
+    padding: 10px; 
+    border-radius: 5px; 
+}
+
+.unknown{
+    color: yellow;
+    text-align: center;
+    border: 2px solid yellow; 
+    padding: 10px; 
+    border-radius: 5px; 
+}
+
+.Dead{
+    color: red;
+    text-align: center;
+    border: 2px solid green; 
+    padding: 10px; 
+    border-radius: 5px; 
+}
